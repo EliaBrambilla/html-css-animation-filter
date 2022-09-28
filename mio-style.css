@@ -5,10 +5,30 @@
 4- temporizzo l hover realizzato prima al punto 3
 */
 
+/* ESERCIZIO 1 */
 .ex-1-square:hover{
   background-color: red;
 }
-
 .ex-1-square{
   transition:  background-color 2s;
 }
+
+/* ESERCIZIO 2 */
+.ex-2-square {
+  transition: 2s;
+}
+.ex-2-square:active {
+  width: 100%;
+}
+
+/* ESERCIZIO 3 */
+.ex-3-square{
+  transition: 2s;
+}
+.ex-3-square:hover{
+border-radius: 50%;
+}
+
+/* ESERCIZIO 4 */
+
+
