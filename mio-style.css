@@ -1,0 +1,14 @@
+/*
+1- step trovare il quadratino nell html
+2- hover sul quadratino
+3- hover cambia colore di sfondo
+4- temporizzo l hover realizzato prima al punto 3
+*/
+
+.ex-1-square:hover{
+  background-color: red;
+}
+
+.ex-1-square{
+  transition:  background-color 2s;
+}
